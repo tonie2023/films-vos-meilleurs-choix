@@ -31,11 +31,9 @@
   margin: 5px;
   padding: 5px;
 }
-
 .card__btn {
   width: 100%;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 5px 0;
   border: none;
   background-color: #ffa04d;
   color: #0088ff;
@@ -45,7 +43,6 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-
 .card__btn:hover {
   background-color: #ffc999;
 }
