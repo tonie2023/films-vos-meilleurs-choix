@@ -45,6 +45,7 @@
 }
 .card__btn:hover {
   background-color: #ffc999;
+  cursor: pointer;
 }
 
 body {

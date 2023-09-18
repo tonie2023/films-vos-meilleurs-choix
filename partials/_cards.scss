@@ -19,5 +19,6 @@ $color: variables.$primary;
   }
   &__btn:hover {
     background-color: color.adjust($color, $lightness: 30%);
+    cursor: pointer;
   }
 }
