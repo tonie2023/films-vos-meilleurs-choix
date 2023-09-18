@@ -3,7 +3,6 @@
   padding: 50px;
   background-color: #ff7700;
   background-color: #ff851a;
-  color: white;
   font-size: 10px;
   font-weight: normal;
   font-style: normal;
@@ -13,6 +12,7 @@
 .top-picks__header {
   border-left: solid 5px #ff7700;
   padding-left: 20px;
+  color: white;
 }
 .top-picks__title {
   margin: 0;

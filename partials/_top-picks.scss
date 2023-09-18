@@ -7,11 +7,11 @@
   padding: 50px;
   background-color: variables.$primary;
   background-color: color.adjust(variables.$primary, $lightness: 5%);
-  color: white;
   @include text.small-cap;
   &__header {
     border-left: solid 5px variables.$primary;
     padding-left: 20px;
+    color: white;
   }
 
   &__title {
