@@ -1,5 +1,5 @@
 @use "sass:color";
-@use "variables";
+@use "partials/variables";
 @use "mixins/text";
 
 $color: variables.$primary;
