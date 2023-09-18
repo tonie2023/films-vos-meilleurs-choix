@@ -7,7 +7,7 @@
   padding: 50px;
   background-color: variables.$primary;
   background-color: color.adjust(variables.$primary, $lightness: 5%);
-  @include text.small-cap;
+
   &__header {
     border-left: solid 5px variables.$primary;
     padding-left: 20px;
@@ -21,6 +21,7 @@
 
   &__desc {
     opacity: 0.7;
+    @include text.small-cap;
   }
 
   &__wrapper {
