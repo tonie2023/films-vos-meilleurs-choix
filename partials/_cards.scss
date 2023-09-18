@@ -18,7 +18,7 @@ $color: variables.$primary;
     @include text.small-cap;
   }
   &__btn:hover {
-    background-color: color.adjust($color, $lightness: 30%);
+    background-color: color.adjust($color, $lightness: 25%);
     cursor: pointer;
   }
 }
