@@ -18,7 +18,7 @@ $color: variables.$primary;
     color: color.complement($color);
     @include text.small-cap;
   }
-}
-.card__btn:hover {
-  background-color: color.adjust($color, $lightness: 30%);
+  &__btn:hover {
+    background-color: color.adjust($color, $lightness: 30%);
+  }
 }
