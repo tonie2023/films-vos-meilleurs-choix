@@ -1,1 +1,6 @@
-@use 'partials/top-picks';
+@use "partials/top-picks";
+@use "partials/cards";
+@use "partials/variables";
+body {
+  background-color: variables.$primary;
+}
